@@ -253,7 +253,6 @@ def tpfplotter(tic,LIST=False,COORD=False,SAVEGAIA=False,name=False,maglim=5,sec
                 tpf = search_tesscut(ra+" "+dec).download(cutout_size=(12,12))                             #
             pipeline = "False"
             print('    --> Using TESScut to get the TPF')
-            # HEREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
             # By TIC name --------------------------------------------------------------------
         else:
             # If the target is in the CTL (short-cadance targets)...
